@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://paytm-trans.appspot.com/status"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://paytm-trans.appspot.com/redirect"));
                 startActivity(browserIntent);
             }
         });
